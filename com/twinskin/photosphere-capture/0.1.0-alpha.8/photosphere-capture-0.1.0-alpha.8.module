@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.twinskin",
+    "module": "photosphere-capture",
+    "version": "0.1.0-alpha.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.microsoft.onnxruntime",
+          "module": "onnxruntime-android",
+          "version": {
+            "requires": "1.17.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "photosphere-capture-0.1.0-alpha.8.aar",
+          "url": "photosphere-capture-0.1.0-alpha.8.aar",
+          "size": 21369505,
+          "sha512": "a179d02d14b3f51a7cc87b6098a5c7c27b4dfa569b27ca2b1506e0f06a95bf022af975761ffeb8e80b1c8cf756e0aa2ddd024867f376b10d54d7f7cb0e37e97f",
+          "sha256": "1752b5eb6656e4cf664a942b3aec4ff3336ef4b101cb113d4c4d5d66b2bd1462",
+          "sha1": "5eae3e3acd2f66ce3d302415c04d455d572ac522",
+          "md5": "fbaab6bb9903910336f8224b0ff97043"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.microsoft.onnxruntime",
+          "module": "onnxruntime-android",
+          "version": {
+            "requires": "1.17.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "photosphere-capture-0.1.0-alpha.8.aar",
+          "url": "photosphere-capture-0.1.0-alpha.8.aar",
+          "size": 21369505,
+          "sha512": "a179d02d14b3f51a7cc87b6098a5c7c27b4dfa569b27ca2b1506e0f06a95bf022af975761ffeb8e80b1c8cf756e0aa2ddd024867f376b10d54d7f7cb0e37e97f",
+          "sha256": "1752b5eb6656e4cf664a942b3aec4ff3336ef4b101cb113d4c4d5d66b2bd1462",
+          "sha1": "5eae3e3acd2f66ce3d302415c04d455d572ac522",
+          "md5": "fbaab6bb9903910336f8224b0ff97043"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "photosphere-capture-0.1.0-alpha.8-sources.jar",
+          "url": "photosphere-capture-0.1.0-alpha.8-sources.jar",
+          "size": 61358,
+          "sha512": "1e8bd0cf844e025c8c94e571cbd5c5c19dda541ebc3633dd58d886bc0a8836ff61474c8c6e464649683eea0e0f25764f9cdd6416801f247797896dc36be092dd",
+          "sha256": "47382245f4d46a63c62d5008cc2f02027f623a63c724daf3adf127d2a89d75db",
+          "sha1": "6efd7382c5799f9ba7c5f3920fe8a028302bac9c",
+          "md5": "c5a75b291fa6cd809a5c2bca0708745c"
+        }
+      ]
+    }
+  ]
+}
