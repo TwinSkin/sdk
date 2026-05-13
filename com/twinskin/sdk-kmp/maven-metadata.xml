@@ -3,11 +3,12 @@
   <groupId>com.twinskin</groupId>
   <artifactId>sdk-kmp</artifactId>
   <versioning>
-    <latest>0.1.0-alpha.4</latest>
-    <release>0.1.0-alpha.4</release>
+    <latest>0.1.0-alpha.5</latest>
+    <release>0.1.0-alpha.5</release>
     <versions>
       <version>0.1.0-alpha.4</version>
+      <version>0.1.0-alpha.5</version>
     </versions>
-    <lastUpdated>20260513090413</lastUpdated>
+    <lastUpdated>20260513095044</lastUpdated>
   </versioning>
 </metadata>
