@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.twinskin",
+    "module": "sdk",
+    "version": "0.1.0-alpha.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.twinskin",
+          "module": "sdk-kmp",
+          "version": {
+            "requires": "0.1.0-alpha.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-0.1.0-alpha.10.aar",
+          "url": "sdk-0.1.0-alpha.10.aar",
+          "size": 14145,
+          "sha512": "b4c182dec3850c2d5341c7dac1676be8d8e7e47919e4054c2ed13914419bcf499bb4f933a971c9cb4a187c4124988ffc09122d863c65882b9288eb883fd13aba",
+          "sha256": "6990c4ef0a7a91c4b1ee09cbfebcf02062859785a80ecbdbe7cde6a9ee92145a",
+          "sha1": "d57ddc75d75aabf937d8377847744facb794407f",
+          "md5": "efdf71a28f95823a91827dc7aaebfd00"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.10.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.twinskin",
+          "module": "sdk-kmp",
+          "version": {
+            "requires": "0.1.0-alpha.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-0.1.0-alpha.10.aar",
+          "url": "sdk-0.1.0-alpha.10.aar",
+          "size": 14145,
+          "sha512": "b4c182dec3850c2d5341c7dac1676be8d8e7e47919e4054c2ed13914419bcf499bb4f933a971c9cb4a187c4124988ffc09122d863c65882b9288eb883fd13aba",
+          "sha256": "6990c4ef0a7a91c4b1ee09cbfebcf02062859785a80ecbdbe7cde6a9ee92145a",
+          "sha1": "d57ddc75d75aabf937d8377847744facb794407f",
+          "md5": "efdf71a28f95823a91827dc7aaebfd00"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-0.1.0-alpha.10-sources.jar",
+          "url": "sdk-0.1.0-alpha.10-sources.jar",
+          "size": 3824,
+          "sha512": "024692e3cdb9c5298210a11a2a2461beb9825533f6b386ba18fe028bff114a51cec5a74a1f5a98610e6325bf5ce2895d0d2785d08b3f15ac070a3bbd943d306a",
+          "sha256": "83346815e9742112049c79f8cf7d923dd5456b0412976fd5776f19af33d4d4ac",
+          "sha1": "82f2a6cddc5837f3405c8f3a580b4d3f4cff4b8e",
+          "md5": "9ef92d8beac31a01e1afcc32274ba31a"
+        }
+      ]
+    }
+  ]
+}
