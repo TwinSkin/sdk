@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.twinskin",
+    "module": "photosphere-capture",
+    "version": "0.3.0-alpha.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "photosphere-capture-0.3.0-alpha.2.aar",
+          "url": "photosphere-capture-0.3.0-alpha.2.aar",
+          "size": 24880658,
+          "sha512": "ce82d7f55024f1c65b8a48eb2e27d2197cb4c0f5c6908a72afa19f877ddb901c5edfc68a3adcb6930214b4b8c3e5535176ace62621e9a52dc46ffa26826a6a8c",
+          "sha256": "3a6927b3be6c15214aa1b8361051b5aa3ea2db377882035794cc51b020514756",
+          "sha1": "573733bb7de89e3e678371d2eddfcbaa69cf86ca",
+          "md5": "db18f838ed5e47c1e55e605d26995cfc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "photosphere-capture-0.3.0-alpha.2.aar",
+          "url": "photosphere-capture-0.3.0-alpha.2.aar",
+          "size": 24880658,
+          "sha512": "ce82d7f55024f1c65b8a48eb2e27d2197cb4c0f5c6908a72afa19f877ddb901c5edfc68a3adcb6930214b4b8c3e5535176ace62621e9a52dc46ffa26826a6a8c",
+          "sha256": "3a6927b3be6c15214aa1b8361051b5aa3ea2db377882035794cc51b020514756",
+          "sha1": "573733bb7de89e3e678371d2eddfcbaa69cf86ca",
+          "md5": "db18f838ed5e47c1e55e605d26995cfc"
+        }
+      ]
+    }
+  ]
+}
