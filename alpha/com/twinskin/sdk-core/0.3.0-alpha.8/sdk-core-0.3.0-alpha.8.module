@@ -1,0 +1,333 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-kmp/0.3.0-alpha.8/sdk-kmp-0.3.0-alpha.8.module",
+    "group": "com.twinskin",
+    "module": "sdk-kmp",
+    "version": "0.3.0-alpha.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core.aar",
+          "url": "sdk-core-0.3.0-alpha.8.aar",
+          "size": 2801306,
+          "sha512": "a71268f3ac70a8169beb1a523ced43a68116d788c24ac84cc0bc62b785e8a5427961c04f244d150c597ff7189d9c8fda273bfa0d5dc6953428864aa14484e7ee",
+          "sha256": "81b767337771f203aeb6ed5991d89add1df288f14ba09dce4f7171ff8a0ebafb",
+          "sha1": "bd7edf3be3abbce5f163433c7f0f1392d337c469",
+          "md5": "af54c2bab98f06039e784efea1ac8543"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "android-driver",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-video",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.github.sceneview",
+          "module": "sceneview",
+          "version": {
+            "requires": "4.26.0"
+          }
+        },
+        {
+          "group": "com.twinskin",
+          "module": "capture-probes",
+          "version": {
+            "requires": "0.3.0-alpha.8"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.10.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.powersync",
+          "module": "core",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core.aar",
+          "url": "sdk-core-0.3.0-alpha.8.aar",
+          "size": 2801306,
+          "sha512": "a71268f3ac70a8169beb1a523ced43a68116d788c24ac84cc0bc62b785e8a5427961c04f244d150c597ff7189d9c8fda273bfa0d5dc6953428864aa14484e7ee",
+          "sha256": "81b767337771f203aeb6ed5991d89add1df288f14ba09dce4f7171ff8a0ebafb",
+          "sha1": "bd7edf3be3abbce5f163433c7f0f1392d337c469",
+          "md5": "af54c2bab98f06039e784efea1ac8543"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sdk-core-android-0.3.0-alpha.8-sources.jar",
+          "url": "sdk-core-0.3.0-alpha.8-sources.jar",
+          "size": 568047,
+          "sha512": "8064f211a7dc987f5cfb9f34d130513fcc20bc3b557df834e8c6d5aab0d76371dcc4925560c79906a69c8d22ba286ad5ce34e67fd9e5fc85bfc78c272f9b1ca7",
+          "sha256": "398ac73f2765e317a84f3dee973d7730fcef83f915d55bb20271523980ed12dd",
+          "sha1": "db527a3ccbc82d28b1d7254e6c312b552c14c11a",
+          "md5": "a52e3d60778a714956bbd245c2e0b90c"
+        }
+      ]
+    }
+  ]
+}
